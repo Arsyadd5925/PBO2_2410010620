@@ -1,7 +1,0 @@
-1. Error karena Koleksi merupakan abstract class sehingga tidak dapat dibuat objek secara langsung dengan new. Pesan error umumnya Koleksi is abstract; cannot be instantiated.
-
-2. Jika @Override masih ada, muncul error karena hitungdenda() tidak sama dengan method hitungDenda() yang harus di-override. Jika @Override dihapus, method dianggap sebagai method baru sehingga tidak melakukan override terhadap method asli.
-
-3. Program menghasilkan IllegalArgumentException dengan pesan Judul tidak boleh kosong, karena constructor Koleksi melarang judul kosong menggunakan isBlank().
-
-4. Melanggar prinsip enkapsulasi karena atribut status yang seharusnya private dapat diubah langsung dari luar class. Status seharusnya hanya diubah melalui method pinjam() dan kembalikan().
