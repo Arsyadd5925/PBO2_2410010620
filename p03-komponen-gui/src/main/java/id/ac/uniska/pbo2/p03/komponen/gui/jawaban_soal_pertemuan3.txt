@@ -1,0 +1,9 @@
+1.Perbedaan Container dan Komponen: Top-level container adalah jendela mandiri tempat seluruh antarmuka diletakkan dan tidak dapat dimasukkan ke dalam wadah lain (contohnya JFrame). Intermediate container adalah wadah perantara yang berfungsi menampung dan mengatur tata letak komponen lain (contohnya JPanel), sedangkan atomic component adalah komponen dasar mandiri yang berinteraksi langsung dengan pengguna dan tidak dapat menampung komponen lain di dalamnya (contohnya JButton).
+
+2.Fungsi ButtonGroup pada JRadioButton: Beberapa JRadioButton perlu diberi properti ButtonGroup yang sama agar mereka saling terikat secara eksklusif, sehingga sistem memastikan pengguna hanya dapat memilih satu opsi saja dari kelompok pilihan tersebut dalam satu waktu.
+
+3.Pemilihan JComboBox vs JRadioButton: JComboBox dipilih ketika jumlah pilihan opsi sangat banyak sehingga lebih efisien menggunakan daftar dropdown untuk menghemat ruang tampilan, sedangkan JRadioButton digunakan jika jumlah pilihannya sedikit (umumnya 2 hingga 4 opsi) dan harus ditampilkan secara langsung agar terlihat jelas oleh pengguna.
+
+4.Aturan Edit Kode initComponents(): Kode di dalam initComponents() tidak boleh diedit secara langsung karena area tersebut dihasilkan dan dikelola secara otomatis oleh GUI builder (seperti NetBeans), di mana modifikasi manual akan tertimpa otomatis saat desain diubah; oleh karena itu, kode tambahan sebaiknya ditulis di luar blok tersebut, seperti di dalam konstruktor setelah pemanggilan initComponents() atau pada metode kustom terpisah.
+
+5.Alasan Pemanggilan FlatLightLaf.setup(): FlatLightLaf.setup() harus dipanggil sebelum form atau jendela dibuat agar pengaturan Look and Feel (tema visual) dapat diterapkan secara seragam ke seluruh komponen GUI sejak awal proses inisialisasi, mencegah terjadinya bentrok atau ketidakkonsistenan tampilan saat jendela pertama kali dimuat.
