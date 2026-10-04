@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>id.ac.uniska.pbo2</groupId>
+<<<<<<< HEAD
+    <artifactId>p03-komponen-gui</artifactId>
+=======
+    <artifactId>p02-perpustakaan-mini</artifactId>
+>>>>>>> 6b5846ab6007c2ca06b7945f8dbe45463459b3d4
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>25</maven.compiler.release>
+<<<<<<< HEAD
+        <exec.mainClass>id.ac.uniska.pbo2.p03.komponen.gui.P03KomponenGui</exec.mainClass>
+    </properties>
+    <dependencies>
+        <dependency>
+        <groupId>com.formdev</groupId>
+        <artifactId>flatlaf</artifactId>
+        <version>3.7.2</version>
+        </dependency>
+    </dependencies>
+=======
+        <exec.mainClass>id.ac.uniska.pbo2.p02.P02PerpustakaanMini</exec.mainClass>
+    </properties>
+>>>>>>> 6b5846ab6007c2ca06b7945f8dbe45463459b3d4
+</project>
