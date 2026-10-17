@@ -1,4 +1,4 @@
-[jawaban refleksi.txt](https://github.com/user-attachments/files/33599011/jawaban.refleksi.txt)# p03 
+# p03 
 
 # Output Tema Terang
 <img width="1920" height="1080" alt="outputTemaTerang" src="https://github.com/user-attachments/assets/937ccb50-380d-4b18-bae2-333138268dea" />
