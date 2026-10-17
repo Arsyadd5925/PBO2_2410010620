@@ -32,3 +32,14 @@
 3. Weight X berfungsi menentukan seberapa besar bagian ruang horizontal tambahan yang diberikan kepada komponen. Fill berfungsi mengatur apakah komponen akan memenuhi ruang yang tersedia pada sel GridBagLayout, baik secara horizontal, vertikal, maupun keduanya.
 4. formPanel dibungkus dengan isiPanel agar susunan form lebih mudah diatur dan dipisahkan dari bagian lain. Form diletakkan di bagian North agar posisinya berada di atas area isiPanel, sehingga tampilannya lebih teratur dan ruang kosong di bagian bawah dapat tetap tersedia.
 5. Dua prinsip desain yang diterapkan pada Form Anggota Perpustakaan adalah pengelompokan komponen dan konsistensi tata letak. Pengelompokan terlihat dari adanya bagian Data Anggota dan Kontak yang memisahkan informasi sesuai fungsinya. Konsistensi tata letak terlihat dari label dan kolom input yang disusun dalam dua kolom menggunakan GridBagLayout, sehingga form lebih mudah dibaca dan digunakan.
+
+# Deklarasi Ai
+Praktikum 1: Saya lancar dalam mengerjakan praktikum 1 dan sangat bisa memahami materi yang ada di modul, sehingga tidak terlalu membutuhkan bantuan AI.
+
+Praktikum 2: Saya agak kesulitan dalam memahami beberapa bagian materi dan menerapkan kode program. Saya menggunakan bantuan AI untuk menjelaskan langkah-langkah pengerjaan dan membantu mengatasi kesalahan yang muncul.
+
+Praktikum 3: Saya mengalami sedikit kesulitan dalam memahami komponen GUI di Java Swing, terutama dalam mengatur komponen pada form menggunakan NetBeans. Saya menggunakan bantuan AI untuk memahami fungsi komponen dan cara mengaturnya.
+
+Praktikum 4: Saya mengalami kesulitan dalam mengatur layout dan posisi komponen pada form, khususnya saat menggunakan GridBagLayout dan mengatur constraint seperti Grid X, Grid Y, Weight X, dan Fill. Saya juga membutuhkan bantuan AI untuk mengatur form agar terlihat rapi serta membantu proses commit dan push proyek menggunakan Git.
+
+Secara keseluruhan, AI membantu saya memahami materi yang belum saya kuasai, menyelesaikan kendala selama praktikum, dan meningkatkan pemahaman saya dalam menggunakan Java, NetBeans, serta Git.
