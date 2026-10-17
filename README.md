@@ -1,4 +1,4 @@
-# p03 
+[jawaban refleksi.txt](https://github.com/user-attachments/files/33599011/jawaban.refleksi.txt)# p03 
 
 # Output Tema Terang
 <img width="1920" height="1080" alt="outputTemaTerang" src="https://github.com/user-attachments/assets/937ccb50-380d-4b18-bae2-333138268dea" />
@@ -23,3 +23,12 @@
 
 # Dinilai oleh Muhammad Ajidannor Rahman
 <img width="488" height="295" alt="Cuplikan layar 2026-10-17 224352" src="https://github.com/user-attachments/assets/bf00e3d6-5a70-4f5a-abd2-9ae15d2920dc" />
+
+# Jawaban untuk Refleksi
+[jawaban refleksi.txt](https://github.com/user-attachments/files/33599033/jawaban.refleksi.txt)
+
+1. Null Layout dan Absolute Layout sebaiknya dihindari karena posisi dan ukuran komponen ditentukan secara manual. Akibatnya, tampilan bisa berantakan ketika ukuran jendela berubah atau program dijalankan pada layar dengan resolusi berbeda.
+2. FlowLayout menyusun komponen secara berurutan dari kiri ke kanan dan akan memindahkan komponen ke baris berikutnya jika ruang tidak cukup. GridLayout menyusun komponen dalam baris dan kolom dengan ukuran yang sama, sehingga ketika jendela dilebarkan, komponen ikut melebar secara merata.
+3. Weight X berfungsi menentukan seberapa besar bagian ruang horizontal tambahan yang diberikan kepada komponen. Fill berfungsi mengatur apakah komponen akan memenuhi ruang yang tersedia pada sel GridBagLayout, baik secara horizontal, vertikal, maupun keduanya.
+4. formPanel dibungkus dengan isiPanel agar susunan form lebih mudah diatur dan dipisahkan dari bagian lain. Form diletakkan di bagian North agar posisinya berada di atas area isiPanel, sehingga tampilannya lebih teratur dan ruang kosong di bagian bawah dapat tetap tersedia.
+5. Dua prinsip desain yang diterapkan pada Form Anggota Perpustakaan adalah pengelompokan komponen dan konsistensi tata letak. Pengelompokan terlihat dari adanya bagian Data Anggota dan Kontak yang memisahkan informasi sesuai fungsinya. Konsistensi tata letak terlihat dari label dan kolom input yang disusun dalam dua kolom menggunakan GridBagLayout, sehingga form lebih mudah dibaca dan digunakan.
