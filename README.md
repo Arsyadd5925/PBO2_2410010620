@@ -38,6 +38,10 @@ Praktikum 1: Saya lancar dalam mengerjakan praktikum 1 dan sangat bisa memahami 
 
 Praktikum 2: Saya agak kesulitan dalam memahami beberapa bagian materi dan menerapkan kode program. Saya menggunakan bantuan AI untuk menjelaskan langkah-langkah pengerjaan dan membantu mengatasi kesalahan yang muncul.
 
+# Sketsa
+<img width="720" height="1280" alt="WhatsApp Image 2026-10-18 at 23 11 44" src="https://github.com/user-attachments/assets/c2e1b4b3-9711-415c-b2d7-21a210cdcf19" />
+
+
 Praktikum 3: Saya mengalami sedikit kesulitan dalam memahami komponen GUI di Java Swing, terutama dalam mengatur komponen pada form menggunakan NetBeans. Saya menggunakan bantuan AI untuk memahami fungsi komponen dan cara mengaturnya.
 
 Praktikum 4: Saya mengalami kesulitan dalam mengatur layout dan posisi komponen pada form, khususnya saat menggunakan GridBagLayout dan mengatur constraint seperti Grid X, Grid Y, Weight X, dan Fill. Saya juga membutuhkan bantuan AI untuk mengatur form agar terlihat rapi serta membantu proses commit dan push proyek menggunakan Git.
