@@ -73,6 +73,14 @@ Secara keseluruhan, AI membantu saya memahami materi yang belum saya kuasai, men
 # Peta Event pada FormAnggotaPerpustakaan
 <img width="480" height="334" alt="image" src="https://github.com/user-attachments/assets/f373711b-4847-4e29-af54-4e3dea6224f1" />
 
+# Tangkapan layar jendela Properties bagian Events untuk tombol Daftar
+<img width="1920" height="1080" alt="Screenshot (219)" src="https://github.com/user-attachments/assets/32aa7c32-a487-49dc-8272-4ee3c714f79f" />
+
+# Tangkapan layar dialog ringkasan
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7fa2d6e9-9d16-41d4-8b40-b593c730aae2" />
+
+# Tangkapan layar dialog konfirmasi keluar
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75c136be-54c0-4127-8ddd-5436091929c8" />
 
 
 
