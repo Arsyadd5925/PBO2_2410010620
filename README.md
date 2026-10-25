@@ -46,3 +46,5 @@ Secara keseluruhan, AI membantu saya memahami materi yang belum saya kuasai, men
 
 # Sketsa
 <img width="720" height="1280" alt="WhatsApp Image 2026-10-18 at 23 11 44" src="https://github.com/user-attachments/assets/c2e1b4b3-9711-415c-b2d7-21a210cdcf19" />
+
+# p05
