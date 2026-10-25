@@ -70,6 +70,10 @@ Secara keseluruhan, AI membantu saya memahami materi yang belum saya kuasai, men
 
 **Eksperimen 3:** Saat tombol Hapus ditekan, kursor kembali ke isian angka pertama karena method `hapus()` menjalankan `angka1Field.requestFocusInWindow()`. Dengan begitu, pengguna bisa langsung memasukkan angka baru.
 
+# Peta Event pada FormAnggotaPerpustakaan
+<img width="480" height="334" alt="image" src="https://github.com/user-attachments/assets/f373711b-4847-4e29-af54-4e3dea6224f1" />
+
+
 
 
 
