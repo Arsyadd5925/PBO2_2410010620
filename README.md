@@ -52,3 +52,25 @@ Secara keseluruhan, AI membantu saya memahami materi yang belum saya kuasai, men
 # Praktikum 2: Mengamati Event
 <img width="479" height="295" alt="Cuplikan layar 2026-10-25 190156" src="https://github.com/user-attachments/assets/d607b47c-582f-4f7c-b18d-5bb003753044" />
 
+# Jawaban eksperimen Praktikum 3 dan Praktikum 4
+[## Praktikum 3 Konversi Suhu.txt](https://github.com/user-attachments/files/33924080/Praktikum.3.Konversi.Suhu.txt)
+## Praktikum 3: Konversi Suhu
+
+**Eksperimen 1:** Pesan `"item berubah"` tercetak dua kali setiap pilihan diganti, karena event `itemStateChanged` dipanggil untuk pilihan lama yang dilepas dan pilihan baru yang dipilih.
+
+**Eksperimen 2:** Hasil konversi terlambat satu karakter karena `keyPressed` berjalan sebelum karakter dimasukkan ke dalam text field. Jadi, program masih membaca teks sebelumnya.
+
+**Eksperimen 3:** Jika blok `try` dan `catch` dihapus, lalu saya mengetik huruf pada isian suhu, program dapat menampilkan error `NumberFormatException` di jendela Output karena teks tersebut tidak bisa diubah menjadi angka.
+
+## Praktikum 4: Kalkulator Sederhana
+
+**Eksperimen 1:** Pesan `"kali"` tercetak dua kali ketika tombol kali diklik, karena tombol tersebut memiliki dua event, yaitu `actionPerformed` dan lambda. Sebaiknya satu tombol menggunakan satu cara saja agar aksi tidak dijalankan dua kali.
+
+**Eksperimen 2:** Untuk menambahkan tombol modulus (%), saya perlu menambahkan tombol `%` di tab Design, membuat event untuk tombol tersebut, lalu menambahkan logika operator `%` pada method `hitung()` di tab Source. Operator modulus digunakan untuk mencari sisa hasil pembagian.
+
+**Eksperimen 3:** Saat tombol Hapus ditekan, kursor kembali ke isian angka pertama karena method `hapus()` menjalankan `angka1Field.requestFocusInWindow()`. Dengan begitu, pengguna bisa langsung memasukkan angka baru.
+
+
+
+
+
