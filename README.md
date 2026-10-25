@@ -82,6 +82,9 @@ Secara keseluruhan, AI membantu saya memahami materi yang belum saya kuasai, men
 # Tangkapan layar dialog konfirmasi keluar
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75c136be-54c0-4127-8ddd-5436091929c8" />
 
+# Deklarasi penggunaan AI: alat yang dipakai dan untuk keperluan apa, atau pernyataan tidak memakai AI
+Saya menggunakan ChatGPT sebagai alat bantu dalam mengerjakan praktikum P05 Event Handling. AI digunakan untuk membantu memahami konsep event pada Java Swing, memberikan arahan dalam pembuatan kode event, serta membantu menyusun peta event dan jawaban pertanyaan praktikum. Seluruh kode tetap saya pelajari, jalankan, dan uji kembali di NetBeans agar sesuai dengan hasil praktikum.
+
 
 
 
