@@ -48,3 +48,7 @@ Secara keseluruhan, AI membantu saya memahami materi yang belum saya kuasai, men
 <img width="720" height="1280" alt="WhatsApp Image 2026-10-18 at 23 11 44" src="https://github.com/user-attachments/assets/c2e1b4b3-9711-415c-b2d7-21a210cdcf19" />
 
 # p05
+
+# Praktikum 2: Mengamati Event
+<img width="479" height="295" alt="Cuplikan layar 2026-10-25 190156" src="https://github.com/user-attachments/assets/d607b47c-582f-4f7c-b18d-5bb003753044" />
+
