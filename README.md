@@ -134,4 +134,5 @@ saya menggunakan ChatGPT (OpenAI) sebagai alat bantu untuk:
 3. Membantu merapikan penulisan dokumentasi dan README.md.
 Seluruh proses pengerjaan, implementasi program, serta pengujian aplikasi dilakukan dan diperiksa kembali secara mandiri. Penggunaan AI hanya sebagai alat bantu pembelajaran dan penyusunan dokumentasi
 
+# p07
 
