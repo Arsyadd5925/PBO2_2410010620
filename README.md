@@ -91,6 +91,11 @@ Saya menggunakan ChatGPT sebagai alat bantu dalam mengerjakan praktikum P05 Even
 <img width="411" height="326" alt="Cuplikan layar 2026-11-01 235406" src="https://github.com/user-attachments/assets/4ace6d51-9b22-43be-82b2-79c15d957403" />
 Dinilai oleh : Akbar Ramadhan
 
+# Tabel singkat berisi temuan dari teman, perbaikan yang Anda lakukan, dan commit
+<img width="482" height="162" alt="Cuplikan layar 2026-11-02 001357" src="https://github.com/user-attachments/assets/e3d437a1-0588-4a2f-8f02-8abe5d51c040" />
+dinilai oleh : Akbar Ramadhan
+
+
 
 
 
