@@ -95,9 +95,43 @@ Dinilai oleh : Akbar Ramadhan
 <img width="482" height="162" alt="Cuplikan layar 2026-11-02 001357" src="https://github.com/user-attachments/assets/e3d437a1-0588-4a2f-8f02-8abe5d51c040" />
 dinilai oleh : Akbar Ramadhan
 
+# pesan kesalahan
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2cbd2b4-8a89-4c4b-8e30-81f8db7cfa83" />
 
+# Navigator
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e550f557-eba6-4103-938a-1b0779de63bc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23349ed2-900d-49fe-a766-28b1e82de266" />
 
+# Jawaban eksperimen
+1. Ketik huruf pada isian NPM. Apa yang terjadi dan baris mana di npmFieldKeyTyped yang menyebabkannya?
 
+Ketika saya mengetik huruf pada kolom NPM, huruf tersebut tidak dapat dimasukkan karena kolom NPM hanya menerima karakter angka. Hal ini disebabkan oleh kondisi !Character.isDigit(evt.getKeyChar()) yang memeriksa karakter yang diketik. Jika karakter bukan angka, perintah evt.consume() akan membatalkan input tersebut. Pembatasan ini berjalan dengan baik saat eksperimen dilakukan.
 
+2. Isi email dengan siti@, lalu tekan Tab. Kapan pesan kesalahan muncul?
+
+Pesan kesalahan muncul ketika saya menekan tombol Tab dan fokus berpindah dari kolom Email ke komponen berikutnya. Hal ini terjadi karena event focusLost menjalankan validasi email ketika kolom tidak kosong. Karena format email siti@ belum lengkap dan tidak valid, program menampilkan pesan kesalahan pada kolom Email.
+
+3. Klik isian Nama tanpa mengetik, lalu tekan Tab. Mengapa tidak ada pesan kesalahan?
+
+Tidak muncul pesan kesalahan karena program hanya menjalankan validasi ketika kolom Nama sudah berisi teks. Hal ini diatur melalui kondisi !namaField.getText().isBlank(). Jika kolom masih kosong, pemeriksaan akan dilewati. Kolom kosong nantinya akan diperiksa ketika tombol Daftar ditekan.
+
+4. Centang persetujuan, lalu klik Daftar dengan form kosong. Isian mana yang mendapat fokus?
+
+Ketika saya mencentang persetujuan lalu menekan tombol Daftar dalam keadaan form kosong, fokus diarahkan ke kolom NPM sebagai isian pertama yang tidak valid. Program juga menampilkan informasi mengenai jumlah isian yang perlu diperbaiki. Dengan demikian, pengguna dapat mengetahui bagian yang harus dilengkapi terlebih dahulu.
+
+5. Tekan tombol Alt bersama huruf N. Isian mana yang mendapat fokus, dan properti apa yang mengaturnya?
+
+Ketika saya menekan kombinasi tombol Alt + N, fokus berpindah ke kolom NPM. Hal ini karena huruf N telah ditetapkan sebagai mnemonic pada label NPM. Pengaturannya menggunakan properti displayedMnemonic untuk menentukan tombol pintasan dan labelFor untuk menghubungkan label dengan kolom NPM.
+
+6. Isi beberapa isian, lalu klik Batal dan pilih No. Apakah data tetap ada?
+
+Ya, data yang sudah saya masukkan tetap ada ketika memilih No pada dialog konfirmasi pembatalan. Hal ini karena pilihan No membatalkan proses pengosongan form sehingga method kosongkan() tidak dijalankan. Dengan demikian, pengguna dapat melanjutkan pengisian tanpa kehilangan data sebelumnya.
+
+# Deklarasi Ai
+saya menggunakan ChatGPT (OpenAI) sebagai alat bantu untuk:
+1. Membantu memahami materi validasi input dan kegunaan pada aplikasi Java.
+2. Membantu menyusun jawaban Eksperimen Praktikum 4 berdasarkan modul praktikum.
+3. Membantu merapikan penulisan dokumentasi dan README.md.
+Seluruh proses pengerjaan, implementasi program, serta pengujian aplikasi dilakukan dan diperiksa kembali secara mandiri. Penggunaan AI hanya sebagai alat bantu pembelajaran dan penyusunan dokumentasi
 
 
