@@ -136,3 +136,87 @@ Seluruh proses pengerjaan, implementasi program, serta pengujian aplikasi dilaku
 
 # p07
 
+# Tabel dan Menu
+Jawaban Eksperimen Praktikum 5
+
+1. Apa yang terjadi jika fireTableRowsInserted(baris, baris) dijadikan komentar lalu kontak baru ditambahkan?
+
+Data kontak tetap masuk ke dalam daftar pada KontakTableModel, tetapi tampilan JTable tidak langsung diperbarui. Hal ini karena fireTableRowsInserted() berfungsi memberi tahu JTable bahwa terdapat baris data baru yang ditambahkan.
+
+2. Setelah mencari kata "ah", memilih Ahmad Fauzi, lalu klik Hapus dan pilih No, nama siapa yang muncul pada dialog konfirmasi jika barisTerpilih() hanya mengembalikan getSelectedRow()?
+
+Nama yang muncul adalah Budi Santoso. Hal ini terjadi karena indeks baris pada tampilan tabel berbeda dengan indeks pada model setelah dilakukan pencarian. Untuk mengatasinya, indeks tampilan harus dikonversi menggunakan convertRowIndexToModel().
+
+3. Apa yang terjadi jika dialog diubah menjadi tidak modal (super(pemilik, judul, false))?
+
+Jendela utama masih bisa digunakan ketika dialog terbuka. Selain itu, program tidak menunggu dialog ditutup untuk melanjutkan proses. Akibatnya, nilai hasil dialog bisa masih null ketika proses berikutnya dijalankan.
+
+4. Mengapa Ctrl+E dan Ctrl+D tidak bekerja saat tidak ada baris yang dipilih?
+
+Karena tombol dan menu Ubah serta Hapus dinonaktifkan ketika tidak ada baris yang dipilih. Sedangkan Ctrl+N tetap bisa digunakan karena fitur Tambah tidak membutuhkan pilihan baris.
+
+5. Baris apa yang berubah di initComponents() ketika accelerator hapus diubah menjadi tombol Delete tanpa Ctrl?
+
+Bagian pengaturan accelerator pada hapusItem berubah. Tombol yang digunakan menjadi VK_DELETE dan modifier Ctrl dihilangkan.
+
+Contoh kode:
+
+hapusItem.setAccelerator(
+    javax.swing.KeyStroke.getKeyStroke(
+        java.awt.event.KeyEvent.VK_DELETE, 0
+    )
+);
+
+6. Pesan error apa yang muncul jika model baru dibuat setelah initComponents(), dan mengapa?
+
+Program dapat mengalami NullPointerException karena model masih bernilai null ketika digunakan oleh komponen JTable. Oleh karena itu, objek model harus dibuat sebelum initComponents() dijalankan.
+
+# Mini Proyek Katalog Buku Perpustakaan
+Deskripsi Aplikasi
+
+Aplikasi Katalog Buku Perpustakaan merupakan aplikasi berbasis Java Swing yang digunakan untuk mengelola dan menampilkan data buku. Aplikasi ini menyediakan beberapa fitur untuk memudahkan pengguna dalam mencari, menambahkan, mengubah, dan menghapus data buku.
+
+Fitur Aplikasi
+
+Menampilkan daftar buku dalam bentuk tabel.
+
+Menyediakan beberapa data buku contoh.
+
+Menambahkan data buku baru.
+
+Mengubah data buku yang sudah tersedia.
+
+Menghapus data buku dengan konfirmasi.
+
+Melakukan pencarian buku berdasarkan informasi buku.
+
+Menggunakan menu dan shortcut keyboard.
+
+Menampilkan informasi jumlah buku pada aplikasi.
+
+Video Demo Mini Proyek
+
+Link video demo: [(Masukkan tautan video YouTube atau Google Drive di sini)](https://drive.google.com/file/d/1IkxNjKtKH9II05hUEk4bfZxplRJQjOeJ/view?usp=sharing)
+
+Video demo dibuat dengan durasi maksimal 3 menit. Video memperlihatkan fitur-fitur aplikasi sesuai tabel bagian D pada modul Praktikum P07.
+
+Video juga memperlihatkan sekilas tab Design dan jendela Navigator pada Apache NetBeans.
+
+Deklarasi Penggunaan AI
+
+Dalam pengerjaan Praktikum P07 ini, saya menggunakan ChatGPT sebagai alat bantu untuk memahami materi praktikum, mencari penjelasan ketika mengalami kesulitan, membantu memperbaiki kesalahan kode program, memberikan contoh data buku, serta membantu menyusun dokumentasi README.
+
+Kode program tetap saya jalankan dan periksa kembali menggunakan Apache NetBeans agar sesuai dengan kebutuhan mini proyek.
+
+Teknologi yang Digunakan
+
+Java
+
+Java Swing
+
+Apache NetBeans
+
+Maven
+
+FlatLaf
+
