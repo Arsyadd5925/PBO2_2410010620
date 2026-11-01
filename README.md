@@ -196,7 +196,7 @@ Menampilkan informasi jumlah buku pada aplikasi.
 
 Video Demo Mini Proyek
 
-Link video demo: [(Masukkan tautan video YouTube atau Google Drive di sini)](https://drive.google.com/file/d/1IkxNjKtKH9II05hUEk4bfZxplRJQjOeJ/view?usp=sharing)
+Link video demo: (https://drive.google.com/file/d/1IkxNjKtKH9II05hUEk4bfZxplRJQjOeJ/view?usp=sharing)
 
 Video demo dibuat dengan durasi maksimal 3 menit. Video memperlihatkan fitur-fitur aplikasi sesuai tabel bagian D pada modul Praktikum P07.
 
