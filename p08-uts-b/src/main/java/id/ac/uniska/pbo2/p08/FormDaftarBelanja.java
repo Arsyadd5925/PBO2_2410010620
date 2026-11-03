@@ -22,7 +22,7 @@ public class FormDaftarBelanja extends javax.swing.JFrame {
     public FormDaftarBelanja() {
         initComponents();
         
-        getRootPane().setDefaultButton(tambahButton);
+        
         
         model = new BarangTableModel();
     barangTable.setModel(model);
@@ -30,6 +30,8 @@ public class FormDaftarBelanja extends javax.swing.JFrame {
     setTitle("Daftar Belanja");
     setLocationRelativeTo(null);
     setMinimumSize(new java.awt.Dimension(850, 500));
+    
+    getRootPane().setDefaultButton(tambahButton);
 
     perbaruiRingkasan();
     }
@@ -159,7 +161,6 @@ public class FormDaftarBelanja extends javax.swing.JFrame {
 
         pesanLabel.setForeground(new java.awt.Color(255, 0, 0));
         pesanLabel.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        pesanLabel.setText(" ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 4;
